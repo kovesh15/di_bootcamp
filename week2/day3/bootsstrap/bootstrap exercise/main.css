@@ -1,0 +1,21 @@
+header{
+    height:100vh;
+    background-image:url(1.jpg);
+    background-size:cover;
+    background-position:center;
+
+}
+
+.row.p-x {
+    justify-content: center;
+}
+
+.carousel-item{
+    margin-top:20%;
+}
+
+.carousel-item h1{
+    color:#9c9c9c;
+    text-align: center;
+
+}

@@ -1,0 +1,241 @@
+main{
+    display: flex;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main button{
+    width:25vw;
+    height: 10vh;
+    border:none;
+    outline:transparent;
+    background-color: blue;
+    color:white;
+    transition:all ease-in-out 200ms;
+}
+
+main button:hover{
+    background:red;
+
+}
+
+main button:focus{
+    border:2px solid black;
+}
+main button:active{
+    transform: scale(0.90);
+}
+
+.bg-teal{
+    background-color:teal;
+    color:white;
+}
+
+button.bg-teal {
+    margin-left: 2rem;
+}
+
+.bg-teal:hover{
+    background:rgb(0, 47, 255);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+
+
+.bg-real{
+    background-color:rgb(0, 0, 0);
+    color:white;
+}
+
+button.bg-real {
+    margin-left: 2rem;
+}
+
+.bg-real:hover{
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
+
+
+.bg-neal{
+    background-color:green;
+    color:white;
+}
+
+
+
+.bg-neal:hover{
+    background:yellow;
+    color:black;
+    -webkit-transform: rotateZ(-30deg);
+        -ms-transform: rotateZ(-30deg);
+        transform: rotateZ(-30deg);
+}
+
+
+.bg-zeal{
+    background-color:rgb(194, 2, 2);
+    color:white;
+}
+
+button.bg-zeal {
+    margin-left: 2rem;
+}
+
+.bg-zeal:hover{
+    background:rgb(20, 194, 156);
+    color:rgb(255, 255, 255);
+    border-radius:50%;
+}
+
+
+.bg-threed{
+    background-color:rgb(0, 134, 34);
+    color:white;
+}
+
+button.bg-threed {
+    margin-left: 2rem;
+}
+
+.bg-threed:hover{
+    background:rgb(65, 0, 0);
+    color:rgb(255, 255, 255);
+    box-shadow:
+                1px 1px #53a7ea,
+                2px 2px #53a7ea,
+                3px 3px #53a7ea;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+}
+
+
+
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+.bg-Swing{
+    background-color:rgb(58, 58, 58);
+    color:white;
+}
+
+button.bg-Swing {
+    margin-left: 2rem;
+}
+
+.bg-Swing:hover{
+    background:rgb(0, 109, 9);
+    color:rgb(255, 255, 255);
+    -webkit-animation: swing 1s ease;
+        animation: swing 1s ease;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+}
+
+
+.bg-bor{
+    background-color:rgb(0, 0, 0);
+    color:white;
+}
+
+button.bg-bor {
+    margin-left: 2rem;
+}
+
+.bg-bor:hover{
+    background:#53a7ea;
+    color:rgb(8, 8, 8);
+    box-shadow: inset 0 0 0 25px #53a7ea;
+}
+
+
+
+.bg-fad{
+    background-color:rgb(0, 23, 97);
+    color:white;
+}
+
+button.bg-fad {
+    margin-left: 2rem;
+}
+
+.fade
+{
+        opacity:0.5;
+}
+
+.bg-fad:hover{
+    background:#b4008d;
+    color:white;
+    opacity:1;
+}
