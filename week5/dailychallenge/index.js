@@ -10,10 +10,10 @@ const planets = [
 ] 
 
 for (const planet of planets){
-    // console.log('planet:',planet)
-    const planetDiv = document.createElement("div")
-    div.classList.add("planet" , planet.name.toLowerCase())
-    // div.classList.add(planet.name.toLowerCase())
+    console.log('planet:',planet)
+    const div = document.createElement("div")
+    div.classList.add("planet")
+    div.classList.add(planet.name.toLowerCase())
     
 for (let i=0; i < planet.moons; i++){
     const moonDiv =document.createElement("div")
