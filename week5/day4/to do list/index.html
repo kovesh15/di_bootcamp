@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Lists</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+ <div class="wrapper">
+    <div class ="task-input">
+        <input type="text" placeholder="New task">
+    </div>
+    <div class ="controls">
+   <div class="filters">
+    <span id="all" class="active">All</span>
+    <span id="all">Pending</span>
+    <span id="all">Completed</span>
+   </div>
+   <button class="clear-btn">Clear All</button>
+    </div>
+    <ul class="task-box">
+        <li class="task">
+            <label for="1">
+                <input type="checkbox" id="1">
+                 <p>Hit the gym</p>
+            </label>
+            <div class="setting">
+                <i class="uil uil-ellipsis-h"></i>
+                <ul class="task-menu">
+                   <li><i class="uil uil-pen"></i>Edit</li> 
+                   <li><i class="uil uil-pen"></i>Delete</li> 
+                </ul>
+            </div>
+        </li>
+        <li class="task">
+            <label for="1">
+                <input type="checkbox" id="1">
+                 <p>Buy grocies</p>
+            </label>
+            <div class="setting">
+                <i class="uil uil-ellipsis-h"></i>
+            </div>
+        </li>
+        <li class="task">
+            <label for="1">
+                <input type="checkbox" id="1">
+                 <p>Pay bill</p>
+            </label>
+            <div class="setting">
+                <i class="uil uil-ellipsis-h"></i>
+            </div>
+        </li>
+    </ul>
+ </div>
+ 
+   <script src="index.js"></script> 
+</body>
+</html>
